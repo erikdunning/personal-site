@@ -1,0 +1,52 @@
+### EMPLOYMENT HISTORY
+
+#### Fetch Rewards, LLC.
+- **Title:** Principal Engineer & Tech Lead
+- **Employed**: 09/2021 – 08/2025
+- **Location:** Madison, WI
+					
+Over the past four years I've been a Principal Engineer / Tech Lead at Fetch tasked with leading the development of  public facing web infrastructure and services.  I’ve led multiple teams to build, release, and support the fetch.com / business.fetch.com websites & the iOS Safari / Chrome Web Extensions.  This included building a number of NPM packages and Node.js / Go microservices shared between the different web projects. Most recently I’ve assisted with WebView based embedded JS environments for both the Fetch Superbowl LIX event and new Fetch Shop WebView display functionality within the iOS and Android apps.
+
+Some highlights:
+
+- Created websites like [fetch.com](https://fetch.com) and [business.fetch.com](https://business.fetch.com) use Svelte / SvelteKit SSR with AWS CloudFront for fast access, and serve as a model for other internal dashboards.
+  
+- Improved company standards for FE based metrics and event gathering using Google web-vitals and other event metrics updates sent using deferred web worker based requests.  These metrics & events are in OTEL format and dispatched to kafka / downstream processors to render Grafana dashboards using fast InfluxDB and batch SnowFlake monitoring / reporting.
+
+- Built CLI tools and shared hosting infrastructure for micro-frontend & web components loaded as custom elements with shadow DOMs, and dynamic module imports to load and dynamic resources.  This was crucial for embedded or injected Fetch Web Extension and WebView environments.
+
+- Built and deployed automations using AWS ECS, S3, and CloudFront based solutions to deliver version specific assets which enable developers and QA resources to clearly test and observe code changes on demand.
+
+- Provided support for legacy WordPress based CMS integrations as well as more developer friendly solutions like Strapi.io.  The latter provides cleaner integrations and automations for text localization, translations, and image conversions.
+
+**Environment:** Javascript / Node.js / Typescript, Go, Svelte, React, Vite, Jest, Playwright (w/ Browserstack), Web Workers, Custom Elements, CDN & NPM hosted JS modules, Postgres (w/ Pisma), Git (with Bitbucket Pipeline CI), Redis, Docker / Docker Compose, Kubernetes, Numerous AWS Services, 
+
+
+#### Zendesk - Madison, WI 
+- **Title:** Staff Engineer
+- **Employed**: 09/2016 – 09/2021
+- **Location:** Madison, WI
+					
+I worked for Zendesk holding several Software Engineer titles on a core engineering team.  Our team evolved tremendously through several organizational shifts before finally landing in IT Engineering.  Despite org moves, its focus remained centered on providing the customization and service platforms Zendesk uses to better engage with customers.  I was initially hired to help architect and build an internal web app platform service called Singularity which hosts custom internal tools and services we built for support and sales purposes.  Singularity’s success and reliability garnered praise from C-Staff and progressively larger projects saw my promotion to Staff Software Engineer where I advised on architecture and security while coding for multiple company wide initiatives.
+
+**Environment:** Javascript / Node.js / Typescript, Ruby, React, AWS, Google Cloud, Redis, Docker, Kubernetes, GitHub Actions, Workato, Ultimate.ai
+
+
+#### Shoutlet / Spredfast / Khoros
+- **Title:** Frontend Engineer
+- **Employed**: 12/2014 – 09/2016
+- **Location:** Madison, WI
+					
+I worked as a Front End Engineer for Shoutlet (acquired by Spredfast which is now Khoros) and I was responsible for coordinating with the Design and UX teams to implement and maintain customer facing interfaces and related services.  I wrote frontend code in Javascript using either React or legacy Javascript modules, but also dove into writing PHP endpoints and a few AWS S3 /  Lambda services as well.  For homogenized code across applications, we relied on NPM packages along with Grunt / Gulp & Webpack to pull in company standard React components, styles, and js libraries.  We employed an Agile / SCRUM approach moderated using JIRA.
+
+**Environment:** Javascript, PHP, Python, React, Node.js, PostgreSQL, Git, jQuery, HTML, CSS
+
+
+#### SWAMP Project at The Morgridge Institute for Research
+- **Title:** Software Engineer
+- **Employed**: 10/2013 – 12/2014
+- **Location:** Madison, WI
+					
+I worked as a Web Developer for the Software Assurance Marketplace ( SWAMP ) division of the Morgridge Institute for Research.  I primarily used the PHP based Laravel MVC framework along with a host of javascript frameworks including jQuery, Underscore, Backbone, and Marionette to produce web applications that served as a mediated interface for backend infrastructure.  I also used Laravel's Eloquent ORM framework to interface with MariaDB and LDAP for data storage and user management.
+
+**Environment:** Javascript, PHP, Laravel, Backbone, ExtJS, MariaDB, Git, SQL, jQuery, HTML, CSS

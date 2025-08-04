@@ -1,0 +1,34 @@
+{
+	"$schema": "https://biomejs.dev/schemas/2.1.3/schema.json",
+
+	"files": {
+		"includes": ["src/**/*.{ts,js,html,css,json}", "package.json", "biome.json"]
+	},
+	"formatter": {
+		"includes": ["src/**/*.{ts,js,html,css,json}", "package.json", "biome.json"],
+		"enabled": true,
+		"lineWidth": 120
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"style": {
+				"useConst": "off",
+				"useImportType": "off"
+			},
+			"correctness": {
+				"noUnusedVariables": "off",
+				"noUnknownProperty": "off",
+				"noUnusedImports": "off"
+			}
+		}
+	},
+	"javascript": {
+		"formatter": {
+			"semicolons": "asNeeded"
+		}
+	},
+	"assist": {
+		"enabled": false
+	}
+}

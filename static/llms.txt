@@ -1,0 +1,240 @@
+## Résumé
+
+### Introduction
+
+I'm a UW Madison alumnus with BSc degrees in both Computer Science and Art. I’ve accumulated over 17 years of full-stack professional experience building various websites, web applications, web extensions, backend services, and mobile integrations.
+
+I enjoy *learning* from and *teaching* other developers while working on projects, which has enriched me with copious experience in a variety of languages, frameworks and tools.
+
+I also enjoy *leading* collaborative solutioning and architecture with diagrams, example repos, actionable meetings and documentation to help communicate project work effectively.
+
+Professionally, I look forward to continuing to expand and refine my knowledge as I help coordinate and build new scalable apps and services with novel tools, architecture, and teams as a full-stack engineer.
+
+
+### EMPLOYMENT HISTORY
+
+#### Fetch Rewards, LLC.
+- **Title:** Principal Engineer & Tech Lead
+- **Employed**: 09/2021 – 08/2025
+- **Location:** Madison, WI
+					
+Over the past four years I've been a Principal Engineer / Tech Lead at Fetch tasked with leading the development of  public facing web infrastructure and services.  I’ve led multiple teams to build, release, and support the fetch.com / business.fetch.com websites & the iOS Safari / Chrome Web Extensions.  This included building a number of NPM packages and Node.js / Go microservices shared between the different web projects. Most recently I’ve assisted with WebView based embedded JS environments for both the Fetch Superbowl LIX event and new Fetch Shop WebView display functionality within the iOS and Android apps.
+
+Some highlights:
+
+- Created websites like [fetch.com](https://fetch.com) and [business.fetch.com](https://business.fetch.com) use Svelte / SvelteKit SSR with AWS CloudFront for fast access, and serve as a model for other internal dashboards.
+  
+- Improved company standards for FE based metrics and event gathering using Google web-vitals and other event metrics updates sent using deferred web worker based requests.  These metrics & events are in OTEL format and dispatched to kafka / downstream processors to render Grafana dashboards using fast InfluxDB and batch SnowFlake monitoring / reporting.
+
+- Built CLI tools and shared hosting infrastructure for micro-frontend & web components loaded as custom elements with shadow DOMs, and dynamic module imports to load and dynamic resources.  This was crucial for embedded or injected Fetch Web Extension and WebView environments.
+
+- Built and deployed automations using AWS ECS, S3, and CloudFront based solutions to deliver version specific assets which enable developers and QA resources to clearly test and observe code changes on demand.
+
+- Provided support for legacy WordPress based CMS integrations as well as more developer friendly solutions like Strapi.io.  The latter provides cleaner integrations and automations for text localization, translations, and image conversions.
+
+**Environment:** Javascript / Node.js / Typescript, Go, Svelte, React, Vite, Jest, Playwright (w/ Browserstack), Web Workers, Custom Elements, CDN & NPM hosted JS modules, Postgres (w/ Pisma), Git (with Bitbucket Pipeline CI), Redis, Docker / Docker Compose, Kubernetes, Numerous AWS Services, 
+
+
+#### Zendesk - Madison, WI 
+- **Title:** Staff Engineer
+- **Employed**: 09/2016 – 09/2021
+- **Location:** Madison, WI
+					
+I worked for Zendesk holding several Software Engineer titles on a core engineering team.  Our team evolved tremendously through several organizational shifts before finally landing in IT Engineering.  Despite org moves, its focus remained centered on providing the customization and service platforms Zendesk uses to better engage with customers.  I was initially hired to help architect and build an internal web app platform service called Singularity which hosts custom internal tools and services we built for support and sales purposes.  Singularity’s success and reliability garnered praise from C-Staff and progressively larger projects saw my promotion to Staff Software Engineer where I advised on architecture and security while coding for multiple company wide initiatives.
+
+**Environment:** Javascript / Node.js / Typescript, Ruby, React, AWS, Google Cloud, Redis, Docker, Kubernetes, GitHub Actions, Workato, Ultimate.ai
+
+
+#### Shoutlet / Spredfast / Khoros
+- **Title:** Frontend Engineer
+- **Employed**: 12/2014 – 09/2016
+- **Location:** Madison, WI
+					
+I worked as a Front End Engineer for Shoutlet (acquired by Spredfast which is now Khoros) and I was responsible for coordinating with the Design and UX teams to implement and maintain customer facing interfaces and related services.  I wrote frontend code in Javascript using either React or legacy Javascript modules, but also dove into writing PHP endpoints and a few AWS S3 /  Lambda services as well.  For homogenized code across applications, we relied on NPM packages along with Grunt / Gulp & Webpack to pull in company standard React components, styles, and js libraries.  We employed an Agile / SCRUM approach moderated using JIRA.
+
+**Environment:** Javascript, PHP, Python, React, Node.js, PostgreSQL, Git, jQuery, HTML, CSS
+
+
+#### SWAMP Project at The Morgridge Institute for Research
+- **Title:** Software Engineer
+- **Employed**: 10/2013 – 12/2014
+- **Location:** Madison, WI
+					
+I worked as a Web Developer for the Software Assurance Marketplace ( SWAMP ) division of the Morgridge Institute for Research.  I primarily used the PHP based Laravel MVC framework along with a host of javascript frameworks including jQuery, Underscore, Backbone, and Marionette to produce web applications that served as a mediated interface for backend infrastructure.  I also used Laravel's Eloquent ORM framework to interface with MariaDB and LDAP for data storage and user management.
+
+**Environment:** Javascript, PHP, Laravel, Backbone, ExtJS, MariaDB, Git, SQL, jQuery, HTML, CSS
+
+### EDUCATION	
+					
+- Graduated 2010 from UW–Madison with two B.Sc. degrees in both Art and Computer Science.
+- Graduated from Mukwonago High School in 2005 and volunteered as a TA for Java senior year.
+
+
+									
+### SKILLS
+
+| Area                        | Tools                                                           |
+| --------------------------- | --------------------------------------------------------------- |
+| **Programming Languages:**  | Typescript / Node.js, Ruby, PHP, Java, Perl, Python, SQL        |
+| **Web Languages:**          | HTML, CSS (SASS), Javascript,                                   |
+| **Web Frameworks:**         | React, Redux, Laravel, Catalyst, Express, jQuery, ExtJS, Vue    |
+| **Web Servers:**            | Nginx, Apache, Lighttpd, Varnish, Memcache                      |
+| **Orchestration:**          | Docker, Kubernetes, Vault, Consul                               |
+| **Build Tools:**            | GitHub Actions, Spinnaker, Jenkins, TravisCI, GCB, Artifactory  |
+| **Cloud Infrastructure:**   | AWS (Lambdas, ECS, S3, EC2) Google Cloud (GCB, GCR, Auth)       |
+| **Zendesk Infrastructure:** | Core API, ZAF Apps, Guide Themes, ZDI, Lotus, Numerous Services |
+| **Test Tools:**             | Capybara / Sauce Labs, Cypress, RSpec, Jest, Jasmine            |
+| **Databases:**              | MySQL, MongoDB, SQLite, PostgreSQL, Redis                       |
+
+### REFERENCES
+
+> **NOTE:** Reach out to me on [LinkedIn](https://www.linkedin.com/in/erik-dunning-5361b938/) for additional contact information!
+
+#### Ed Pritchard
+- **Title:** Engineering Manager / Frontend Engineer at Fetch Rewards
+- **LinkedIn:** https://www.linkedin.com/in/ed-pritchard-917a3931/
+
+#### Maks Yadvinskyy
+- **Title:** Full-stack Engineer at Fetch Rewards
+- **LinkedIn:** https://www.linkedin.com/in/myadvinskyy/
+
+#### Chris Moen
+- **Title:** Frontend Engineer at Fetch Rewards
+- **LinkedIn:** https://www.linkedin.com/in/christophermoen/
+
+
+### ADDITIONAL NOTES
+
+Below are two sections that go into a little more depth about what I’ve worked on at Fetch Rewards and Zendesk.  If anything piques your interest, please feel free to ask me about it!
+
+---
+
+#### 1. Fetch Rewards
+
+While at Fetch Rewards, I’ve been involved with leading the technical aspects of multiple company-wide projects and organized discussions around architectural possibilities using cloud based infrastructure, cutting edge browser features, and new different tools.
+
+Some of these projectes included:
+
+##### Website Migrations
+
+Early on, I organized a discussion about how we’d migrate the legacy Fetch website off of third parties for hosting and development using Static Site Generation within Wordpress in conjunction with a GitHub Actions to Bitbucket Pipeline based bridge.  Put simply, we’d forward the SSG commit from GitHub to Bitbucket and then overlay SvelteKit based replacement pages & logic using Bitbucket pipelines.
+
+The result was stored in S3 and hosted via CloudFront.  This worked beautifully, but we’ve since moved off of S3 and onto an ECS based SvelteKit SSR system called the “Website Service” to make the page content dynamic and automated.  Certainl pages (like the legal pages) are even accessible within the Fetch App using webviews.
+
+##### Self Hosted Headless CMS Support
+
+Another project centered on how we’d use Strapi.io to provide customizable UIs for humans to manage inventories of data, while seamlessly providing JS friendly automations that work behind the scenes to update S3 stored manifests & files.  FE and the Fetch mobile apps load these manifest and the related content they point to using static URLs that can be sensitive to the Accept-Language header for localization.
+
+We built this into our custom Strapi.io solution & use multiple AWS services to organize communications about updates and hosting management.  We called the complete solution stack the “Content Service” and it was used for managing website data as well as a remote config tool for the Fetch Apps and Fetch Extensions.
+
+##### Frontend Telemetry
+We addressed how to use a combination of industry standard third party options (like Google Analytics) along with custom telemetry data to provide better insight into Real User Metrics (RUM).  These provide us a keener understanding into how frontend applications are being used and issues they may be experiencing.
+
+We built a standardized means to send the custom telemetry batches from browsers off of the main UI thread using Web Workers to protect page performance and protect against errors.  The batches are received using a highly scalable ECS hosted Rust service called “Web Sieve” that enques different FE service messages to different Kafka queues for analytics processing downstream.
+
+##### Web Extensions
+
+I led weekly discussions with members of C-Staff at Fetch in attendance to fast track the construction of 
+Fetch’s Web Extensions that are available on desktop for Chrome and shipped with the iOS app for Safari.
+
+I was was a primary code contributor and team leader for the implementation of all the related actions / automations used to build & support the extensions and related websites. 
+
+##### In-App WebViews
+
+For both the Fetch Superbowl LIX event and, most recently, for the Shop WebViews:
+I was selected to help architect and build the infrastructure / code base Fetch uses for embedded web pages and injected JS web experiences used within the Fetch iOS and Android apps.
+
+These projects involved a lot of cross-team coordination, as building them required a very keen understanding of all the layered capabilities involved between the FE, BE, and Mobile developer environments.
+
+Additionally, I’ve been directly involved with the formulation of and company wide adoption of the following JS / CSS platform services & libraries we’ve built for frontend:
+
+- **Fetch Design Library (FDL)** - A customized fork of the open source DaisyUI TailwindCSS plugin, this allows us to share CSS definitions that are selecitvely applied at build time using reserved class names (similar to Bootstrap, but much more powerful and with Tailwind UI copy-paste reusability).
+
+
+- **Fetch MFE / FWC** - Monorepo based systems for quickly and consistently creating framework specific micro-frontends or web components.  They each have CLI based development helper and a create package that leveraging Hygen templating helpers with standardized build, test, and deployment infrastructure.  Loading MFE and FWC can be CDN based, but versioned NPM packages are generally used.
+
+- **Fetch SDK** - A monorepo used to organize and deploy non-UI modules that may be loaded dynamically via CloudFront CDN or from a internally hosted NPM package.  It provides the foundational data logic and integration contracts shared by MFEs / FWCs  and the parent (Shell) application.  It’s also used to standardize auth, Fetch API requests, result processing, and more.
+
+Finally, other company wide initiatives I’ve led include:
+
+- The adoption and support for storing Google Lighthouse results to help measure page performance from Bitbucket pipeline based laboratory conditions.
+- Playwright & Browserstack based support for automatic E2E tests after deployment to different environments.
+- Educating multiple apprentices and other developers.  In some cases I’ve dipped into my years of experience at Zendesk to help guide the production of customer support enhancements that have had a tremendous impact on the speed Zendesk Support ticket processing af Fetch.
+
+--- 
+
+#### 2. Zendesk
+
+While at Zendesk, the team I belonged to accomplished a lot, and I played a large role in that success.  To give you a sense of the many projects I’ve worked on, consider the following sampling:
+
+
+##### The Zendesk Help Center
+
+I helped lead and implement the application architectural redesign including the CI build process and configuration management implementations for the Zendesk Guide theme used to produce support.zendesk.com/hc.  The changes were so well received that customers demanded to know how they could accomplish the same for their Help Center instances and I was asked to make a Medium post about the modular approach I devised: https://tinyurl.com/uwx6lrq
+
+##### Singularity (Custom Web Platform)
+
+I was initially hired at Zendesk to architect and help implement this service.  It serves as a singular resource for a collection of web apps and microservices sharing common data models and build configurations (a monorepo / mono-deploy of related apps). It selectively exposes different apps and features to different groups within the company using a mobile app like UI within Zendesk’s copy of the Support product.  Important apps hosted by the service are also broken out into their own dedicated views and the apps intelligently render themselves based upon where they are accessed (as they may be presented in multiple Zendesk Support locations).
+
+The apps hosted by Singularity:
+
+- Are used by hundreds of employees continuously to provide service to our customers.
+- Provide crucial pieces of customer information at a glance.
+- Proactively notify about impending SLA breaches and other events (in the UI and Slack).
+- Display information and controls to manage ongoing service incident information.
+- Provide configuration UIs for managing the services to a limited audience via privilege settings (including configuring Singularity itself).
+
+
+Additionally, Singularity’s job queuing system to organizes on demand batch and scheduled automations like:
+
+1. Translating Guide articles for the Zendesk Help Center using Lokalise.
+2. Creating proactive tickets with our customers to communicate about important events.
+3. Scanning the Zendesk Help Center for out of date or inconsistent information and taking appropriate actions.
+
+
+##### Zendesk Customer Communications Enhancements
+
+I helped design and implement the architectural changes required within Zendek products to create a consistent support experience between legacy, existing, and new Zendesk products over  ~1.5 years. The project was broken into two phases:
+
+The first phase dealt with better differentiation of customer needs using the Zendesk Chat powered Web Widget product and a React form to decorate chats with metadata used for routing and reporting purposes. While it was out of our team's normal wheelhouse, working on this:
+
+- Helped me gain a solid understanding of how to develop for the massive Zendesk Support UI application which requires the coordination of dozens of teams working out of one codebase.
+- Provided me with experience using the internal Zendesk Experimentation Service (powered in part with LaunchDarkly) and Arturo (a custom feature flagging service tailored to the Zendesk ecosystem).
+
+However, as Zendesk Messaging is the future medium of choice, the previous improvement was replaced in the second phase with a much more advanced chatbot AI / custom API driven model.  The new model leverages Zendesk’s Sunshine Conversations product and a customized version of its browser based widget equivalent.  To accomplish this, I identified the need for and a new customer authentication service and the customized widget which I’ve helped architect and implement.  The authentication service:
+
+- Is written in TypeScript using a collection of internally standardized packages.
+- Builds using GitHub Actions to perform limiting, testing, and image production with GCB.
+- Deploys the Zendesk Kubernetes clusters using Spinnaker.
+- Uses Datadog monitors and alerts to trigger PagerDuty for on-call support.
+
+To make standardizing the UI for the new widget experience easy to control across the company, it’s now integrated into each product’s own build process as a Node.js package hosted by an internal NPM repository.
+
+Finally, I was a lead technical voice on evaluating other necessary service changes which required diving into, interviewing, and evaluating multiple chatbot AI companies.  I built out PoC examples of what could be accomplished given their current offerings. Several major architectural considerations were forefront:
+
+As a large number of custom API resources are required to feed the bot with contextual customer information, we needed something that would allow us to easily select from dozens of options.
+We absolutely needed simple configuration management that would scale with a large number of bot intent flows.
+We needed the ability to carefully curate the information used in the AI model that matches customers to the scripted intent flows to ensure the best results.
+
+Thankfully we found a good match in Ultimate.ai which allowed us to provide our own training data for the ML model and had all the other integration capabilities we needed.  The second phase of the project finally released sometime in October 2021 shortly after I left Zendesk.
+
+
+
+## Projects
+
+### Introduction
+
+Here are some example projects from my portfolio. These projects showcase my skills in web
+development, design, and problem-solving. Each project is a testament to my
+dedication to creating high-quality, user-friendly applications.
+
+> Explore my work to see how I can help bring your ideas to life.
+
+
+## Testimonials
+
+Here are some testimonials from clients and colleagues about my work in web development.
+
+Their feedback highlights my skills, professionalism, and the impact of my projects.
+
+

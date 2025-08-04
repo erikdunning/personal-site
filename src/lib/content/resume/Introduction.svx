@@ -1,0 +1,11 @@
+## Résumé
+
+### Introduction
+
+I'm a UW Madison alumnus with BSc degrees in both Computer Science and Art. I’ve accumulated over 17 years of full-stack professional experience building various websites, web applications, web extensions, backend services, and mobile integrations.
+
+I enjoy *learning* from and *teaching* other developers while working on projects, which has enriched me with copious experience in a variety of languages, frameworks and tools.
+
+I also enjoy *leading* collaborative solutioning and architecture with diagrams, example repos, actionable meetings and documentation to help communicate project work effectively.
+
+Professionally, I look forward to continuing to expand and refine my knowledge as I help coordinate and build new scalable apps and services with novel tools, architecture, and teams as a full-stack engineer.

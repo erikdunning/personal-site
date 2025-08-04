@@ -1,0 +1,15 @@
+									
+### SKILLS
+
+| Area                        | Tools                                                           |
+| --------------------------- | --------------------------------------------------------------- |
+| **Programming Languages:**  | Typescript / Node.js, Ruby, PHP, Java, Perl, Python, SQL        |
+| **Web Languages:**          | HTML, CSS (SASS), Javascript,                                   |
+| **Web Frameworks:**         | React, Redux, Laravel, Catalyst, Express, jQuery, ExtJS, Vue    |
+| **Web Servers:**            | Nginx, Apache, Lighttpd, Varnish, Memcache                      |
+| **Orchestration:**          | Docker, Kubernetes, Vault, Consul                               |
+| **Build Tools:**            | GitHub Actions, Spinnaker, Jenkins, TravisCI, GCB, Artifactory  |
+| **Cloud Infrastructure:**   | AWS (Lambdas, ECS, S3, EC2) Google Cloud (GCB, GCR, Auth)       |
+| **Zendesk Infrastructure:** | Core API, ZAF Apps, Guide Themes, ZDI, Lotus, Numerous Services |
+| **Test Tools:**             | Capybara / Sauce Labs, Cypress, RSpec, Jest, Jasmine            |
+| **Databases:**              | MySQL, MongoDB, SQLite, PostgreSQL, Redis                       |
