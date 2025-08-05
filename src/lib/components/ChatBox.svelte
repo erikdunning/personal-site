@@ -119,19 +119,29 @@
 				<p>
 					This chat box is powered by a WebGPU assisted LLM running entirely in your browser! Please be
 					patient as it may take a few moments to download models process your questions depending on your
-					device's hardware and internet connection speed.
+					device's hardware and internet connection speed. <span class="text-destructive"
+						>Close the tab if your system becomes unresponsive as running the LLM is very resource
+						intensive!</span
+					>
 				</p>
 			{:else if enabled}
 				<p>Please ask a question above!</p>
-				<blockquote>
+				<p class="text-accent">
 					NOTE: If this is your first question, you may have to download up to 2GB of data that will be cached
-					for subsequent questions. Computing LLM responses is very resource intensive so close the tab if
-					your system becomes unresponsive!
-				</blockquote>
-			{:else}
+					for subsequent questions!
+				</p>
 				<p>
-					Your device or browser is unsupported! Please use desktop or laptop computer with a good GPU to use
-					this experience!
+					Computing LLM responses is <span class="text-destructive">very resource intensive</span> so close
+					the tab if your system becomes unresponsive! You must have a dedicated GPU and may have to enable a
+					<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU feature flag</a> in your
+					browser to use this feature! >
+				</p>
+			{:else}
+				<p>Your device or browser is unsupported!</p>
+				<p class="text-accent">
+					You must have a dedicated GPU and may have to enable a <a
+						href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU feature flag</a
+					> in your browser to use this feature for Firefox or Safari!
 				</p>
 			{/if}
 		</div>
