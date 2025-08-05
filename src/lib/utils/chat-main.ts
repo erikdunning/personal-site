@@ -13,7 +13,7 @@ export async function createMLCEngine() {
 	const initProgressCallback = (report: webllm.InitProgressReport) => {
 		setValue("loading-label", report.text)
 	}
-	const selectedModel = "Llama-3.2-3B-Instruct-q4f32_1-MLC"
+	const selectedModel = "Llama-3.2-1B-Instruct-q4f32_1-MLC"
 	const engine: webllm.MLCEngineInterface = await webllm.CreateWebWorkerMLCEngine(
 		new Worker(new URL("./chat-worker.ts", import.meta.url), { type: "module" }),
 		selectedModel,
@@ -40,7 +40,7 @@ export async function processRequest(engine: webllm.MLCEngineInterface, content:
 			{ role: "user", content },
 		],
 		temperature: 0.2,
-		max_tokens: 20000,
+		max_tokens: 10000,
 	}
 
 	setValue("loading-label", "Processing response...")

@@ -5,10 +5,6 @@ const mdFiles = [
     './src/lib/content/resume/EmploymentHistory.svx',
     './src/lib/content/resume/Education.svx',
     './src/lib/content/resume/Skills.svx',
-    './src/lib/content/resume/References.svx',
-    './src/lib/content/resume/AdditionalNotes.svx',
-    './src/lib/content/projects/Introduction.svx',
-    './src/lib/content/testimonials/Introduction.svx',
 ]
 
 let promises = []
