@@ -134,7 +134,7 @@
 					Computing LLM responses is <span class="text-destructive">very resource intensive</span> so close
 					the tab if your system becomes unresponsive! You must have a dedicated GPU and may have to enable a
 					<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU feature flag</a> in your
-					browser to use this feature! >
+					browser to use this feature!
 				</p>
 			{:else}
 				<p>Your device or browser is unsupported!</p>
