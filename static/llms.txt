@@ -224,17 +224,17 @@ Thankfully we found a good match in Ultimate.ai which allowed us to provide our 
 
 ### Introduction
 
-Here are some example projects from my portfolio. These projects showcase my skills in web
+Here I'll post some example projects from my portfolio.
+
+These projects will showcase my skills in software engineering, web
 development, design, and problem-solving. Each project is a testament to my
 dedication to creating high-quality, user-friendly applications.
-
-> Explore my work to see how I can help bring your ideas to life.
 
 
 ## Testimonials
 
-Here are some testimonials from clients and colleagues about my work in web development.
+I'll soon be posting some testimonials from clients and colleagues about my work in web development.
 
-Their feedback highlights my skills, professionalism, and the impact of my projects.
+Their feedback will highlight my skills, professionalism, and the impact of my projects.
 
 

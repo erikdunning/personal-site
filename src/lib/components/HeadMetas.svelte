@@ -3,13 +3,11 @@
 </script>
 
 <script lang="ts">
-	const defaultImage = import.meta.env.VITE_BASE_URL
-		? new URL('/photos/colorful.jpg', import.meta.env.VITE_BASE_URL).href
+	const defaultImage = import.meta.env.VITE_SITE
+		? new URL('/photos/colorful.jpg', import.meta.env.VITE_SITE).href
 		: '/photos/colorful.jpg'
 
-	const url = import.meta.env.VITE_BASE_URL
-		? new URL(page.url.pathname, import.meta.env.VITE_BASE_URL).href
-		: page.url.href
+	const url = import.meta.env.VITE_SITE ? new URL(page.url.pathname, import.meta.env.VITE_SITE).href : page.url.href
 
 	const {
 		title,

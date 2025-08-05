@@ -10,8 +10,6 @@
 </script>
 
 <script lang="ts">
-	import { tick } from 'svelte'
-
 	const placeholder =
 		'Ask this LLM (AI bot) running in your browser about me!' + '\n' + '\n' + 'Example: Where did you go to school?'
 	const unsupported = 'Unsupported browser. Chrome on a desktop or laptop is recommended!'
