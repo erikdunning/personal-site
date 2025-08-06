@@ -19,7 +19,7 @@ Some highlights:
 
 - Provided support for legacy WordPress based CMS integrations as well as more developer friendly solutions like Strapi.io.  The latter provides cleaner integrations and automations for text localization, translations, and image conversions.
 
-**Environment:** Javascript / Node.js / Typescript, Go, Svelte, React, Vite, Jest, Playwright (w/ Browserstack), Web Workers, Custom Elements, CDN & NPM hosted JS modules, Postgres (w/ Pisma), Git (with Bitbucket Pipeline CI), Redis, Docker / Docker Compose, Kubernetes, Numerous AWS Services, 
+**Environment:** Javascript / Node.js / Typescript, Go, Svelte, React, Vite, Jest, Playwright (w/ Browserstack), Web Workers, Custom Elements, CDN & NPM hosted JS modules, Postgres (w/ Prisma), Git (with Bitbucket Pipeline CI), Redis, Docker / Docker Compose, Kubernetes, Numerous AWS Services, 
 
 
 #### Zendesk - Madison, WI 

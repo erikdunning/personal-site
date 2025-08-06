@@ -7,6 +7,10 @@
 | **Web Languages:**          | HTML, CSS (SASS), Javascript,                                   |
 | **Web Frameworks:**         | React, Redux, Laravel, Catalyst, Express, jQuery, ExtJS, Vue    |
 | **Web Servers:**            | Nginx, Apache, Lighttpd, Varnish, Memcache                      |
+| **Mobile Apps:**            | Swift & Kotlin Apps, XCode / Android Studio                     |
+| **Data Processing:**        | Kafka, RabbitMQ, SQS, InfluxDB, Snowflake                       |
+| **Observability:**          | OTEL, Prometheus, Hosted Graphite, Datadog, Grafana             |
+| **Marketing:**              | GTM / Google Analytics, Salesforce Web Forms, Calendly, etc.    |
 | **Orchestration:**          | Docker, Kubernetes, Vault, Consul                               |
 | **Build Tools:**            | GitHub Actions, Spinnaker, Jenkins, TravisCI, GCB, Artifactory  |
 | **Cloud Infrastructure:**   | AWS (Lambdas, ECS, S3, EC2) Google Cloud (GCB, GCR, Auth)       |

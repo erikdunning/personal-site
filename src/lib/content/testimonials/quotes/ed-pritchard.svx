@@ -1,0 +1,10 @@
+> Erik is a true artist and master of the software engineering craft. In every tough technical challenge we’ve faced together,
+> he’s consistently brought well-rounded insight into system architecture, performance, scalability, and long-term maintainability.
+> He thrives on solving complex problems with creativity and precision—whether it’s through brainstorming, whiteboarding, or exploring
+> novel approaches. If you need someone you can count on to deliver, Erik is that person. He not only moves fast, but the result is
+> always a thoughtfully engineered, high-quality product.
+
+<a href="https://www.linkedin.com/in/ed-pritchard-917a3931/" target="_blank" rel="noreferrer noopener">
+    <enhanced:img src="../images/ed-pritchard.jpg" width="200" height="200" alt="Ed Pritchard" />
+    <span>Ed Pritchard - Team Lead & Full-stack Engineer</span>
+</a>

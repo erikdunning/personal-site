@@ -1,0 +1,11 @@
+> Erik was an excellent mentor to me when I was doing my frontend apprenticeship at Fetch.
+> He guided me on projects that used Tailwind and TypeScript, 2 technologies I had zero experience with prior to the apprenticeship.
+> By the end, I felt confident configuring new projects with Tailwind and adding types to my JavaScript code.
+> Been using these technologies for every web project since then. He was very patient with me and all my questions.
+> Erik has a knack for making you feel welcome even when you've only been on a team for a few days.
+> Highly recommend to any org looking to up-level their frontend team.
+
+<a href="https://www.linkedin.com/in/stevenboutcher" target="_blank" rel="noreferrer noopener">
+    <enhanced:img src="../images/steven-boutcher.jpg" width="200" height="200" alt="Steven Boutcher" />
+    <span>Steven Boutcher - QA Automation Engineer</span>
+</a>

@@ -1,0 +1,9 @@
+> Erik was my tech lead at Fetch, and it was a great experience working with him.
+> He’s a highly driven and skilled full stack engineer with deep expertise across Android, iOS, and front-end.
+> He always made sure the team had what we needed to succeed and led with clarity and support.
+> Any team would be lucky to have him!
+
+<a href="https://www.linkedin.com/in/skavitkar/" target="_blank" rel="noreferrer noopener">
+    <enhanced:img src="../images/swanand-kavitkar.jpg" width="200" height="200" alt="Swanand Kavitkar" />
+    <span>Swanand Kavitkar- Team Lead & Full-stack Engineer</span>
+</a>

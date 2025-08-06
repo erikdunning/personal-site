@@ -14,7 +14,7 @@ Some of these projectes included:
 
 Early on, I organized a discussion about how we’d migrate the legacy Fetch website off of third parties for hosting and development using Static Site Generation within Wordpress in conjunction with a GitHub Actions to Bitbucket Pipeline based bridge.  Put simply, we’d forward the SSG commit from GitHub to Bitbucket and then overlay SvelteKit based replacement pages & logic using Bitbucket pipelines.
 
-The result was stored in S3 and hosted via CloudFront.  This worked beautifully, but we’ve since moved off of S3 and onto an ECS based SvelteKit SSR system called the “Website Service” to make the page content dynamic and automated.  Certainl pages (like the legal pages) are even accessible within the Fetch App using webviews.
+The result was stored in S3 and hosted via CloudFront.  This worked beautifully, but we’ve since moved off of S3 and onto an ECS based SvelteKit SSR system called the “Website Service” to make the page content dynamic and automated.  Certain pages (like the legal pages) are even accessible within the Fetch App using webviews.
 
 ##### Self Hosted Headless CMS Support
 
@@ -43,7 +43,7 @@ These projects involved a lot of cross-team coordination, as building them requi
 
 Additionally, I’ve been directly involved with the formulation of and company wide adoption of the following JS / CSS platform services & libraries we’ve built for frontend:
 
-- **Fetch Design Library (FDL)** - A customized fork of the open source DaisyUI TailwindCSS plugin, this allows us to share CSS definitions that are selecitvely applied at build time using reserved class names (similar to Bootstrap, but much more powerful and with Tailwind UI copy-paste reusability).
+- **Fetch Design Library (FDL)** - A customized fork of the open source DaisyUI TailwindCSS plugin, this allows us to share CSS definitions that are selectively applied at build time using reserved class names (similar to Bootstrap, but much more powerful and with Tailwind UI copy-paste reusability).
 
 
 - **Fetch MFE / FWC** - Monorepo based systems for quickly and consistently creating framework specific micro-frontends or web components.  They each have CLI based development helper and a create package that leveraging Hygen templating helpers with standardized build, test, and deployment infrastructure.  Loading MFE and FWC can be CDN based, but versioned NPM packages are generally used.
@@ -89,7 +89,7 @@ Additionally, Singularity’s job queuing system to organizes on demand batch an
 
 ##### Zendesk Customer Communications Enhancements
 
-I helped design and implement the architectural changes required within Zendek products to create a consistent support experience between legacy, existing, and new Zendesk products over  ~1.5 years. The project was broken into two phases:
+I helped design and implement the architectural changes required within Zendesk products to create a consistent support experience between legacy, existing, and new Zendesk products over  ~1.5 years. The project was broken into two phases:
 
 The first phase dealt with better differentiation of customer needs using the Zendesk Chat powered Web Widget product and a React form to decorate chats with metadata used for routing and reporting purposes. While it was out of our team's normal wheelhouse, working on this:
 

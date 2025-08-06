@@ -322,6 +322,16 @@
 		@apply font-semibold;
 	}
 
+	.quote-container {
+		@apply border rounded-md p-8 relative;
+		> a {
+			@apply flex absolute -left-1 -top-16 items-center gap-6;
+			> picture {
+				@apply size-20 rounded-full overflow-hidden border-2 border-foreground;
+			}
+		}
+	}
+
 	/* blockquote {
 		@apply italic text-muted-foreground border-l-2 border-muted pl-4;
 	} */
