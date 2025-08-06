@@ -4,6 +4,7 @@
 	import { createMLCEngine, processRequest } from '$lib/utils/chat-main'
 	import { checkWebGPUSupport } from '$lib/utils/web-gpu-support'
 	import { IconSend2 } from '@tabler/icons-svelte'
+	import bowser from 'bowser'
 
 	import type { MLCEngineInterface } from '@mlc-ai/web-llm'
 </script>
@@ -40,6 +41,7 @@
 
 	afterNavigate(async () => {
 		ref?.focus()
+		isSupportedBrowser = bowser.parse(window.navigator.userAgent).platform.type === 'desktop'
 		hasWebGPU = await checkWebGPUSupport()
 	})
 </script>
@@ -49,12 +51,12 @@
 		<h2>Virtual Assistant</h2>
 		<p class="text-sm">
 			This is a little demo bot that answers questions about me and my work experience using LLM (AI) processing
-			in the browser given markdown files used to build the site as context. Ask away!
+			in the browser. It uses markdown files used to build the site as context, so ask away!
 		</p>
 		<p class="text-xs opacity-60">
 			It's built on some bleeding edge browser APIs (WebGPU / WASM with Web Workers) so it may not work 100% of
-			the time or on all devices and using Chrome / Edge on a desktop or laptop computer is recommended for GPU
-			support!
+			the time or on all devices. Using Chrome / Edge on a desktop or laptop computer with a powerful GPU is
+			recommended!
 		</p>
 	</div>
 	<div
