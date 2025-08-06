@@ -10,7 +10,7 @@
 
 <HeadMetas
 	title="Testimonials"
-	description="Testimonials from clients and colleagues about my work and abilities. Their feedback highlight my skills, professionalism, and the impact of my efforts on projects."
+	description="Testimonials from colleagues and clients that highlight my skills, professionalism, and the impact of my efforts on projects."
 />
 
 <article class="max-w-5xl w-full mx-auto px-6 prose">
