@@ -4,28 +4,27 @@
 	import { createMLCEngine, processRequest } from '$lib/utils/chat-main'
 	import { checkWebGPUSupport } from '$lib/utils/web-gpu-support'
 	import { IconSend2 } from '@tabler/icons-svelte'
-	import bowser from 'bowser'
 
 	import type { MLCEngineInterface } from '@mlc-ai/web-llm'
 </script>
 
 <script lang="ts">
-	const placeholder =
-		'Ask this LLM (AI bot) running in your browser about me!' + '\n' + '\n' + 'Example: Where did you go to school?'
-	const unsupported = 'Unsupported browser. Chrome on a desktop or laptop is recommended!'
+	const placeholder = 'Ask this LLM (AI bot) about me!' + '\n' + 'Example: Where did you go to school?'
+	const unsupported = 'Unsupported browser or device!'
 
 	let ref: HTMLTextAreaElement
 	let hasWebGPU = $state(false)
 	let isSupportedBrowser = $state(true)
 	let enabled = $derived(hasWebGPU && isSupportedBrowser)
 	let running = $state(false)
+	let value = $state('')
 	let engine: MLCEngineInterface | null = $state(null)
 
 	const evaluateCurrentQuestion = async () => {
 		if (ref && ref.value && enabled && !running) {
 			try {
-				engine ||= await createMLCEngine()
 				running = true
+				engine ||= await createMLCEngine()
 				await processRequest(engine, ref.value)
 			} catch (e) {
 				console.error(e)
@@ -41,17 +40,29 @@
 
 	afterNavigate(async () => {
 		ref?.focus()
-		isSupportedBrowser = bowser.parse(window.navigator.userAgent).platform.type === 'desktop'
 		hasWebGPU = await checkWebGPUSupport()
 	})
 </script>
 
-<div class="flex flex-col gap-8 w-full py-10 bg-accent/5 items-center justify-center">
+<div class="flex flex-col gap-8 w-full py-10 bg-accent/5 items-center justify-center p-6">
+	<div class="max-w-md flex flex-col gap-4">
+		<h2>Virtual Assistant</h2>
+		<p class="text-sm">
+			This is a little demo bot that answers questions about me and my work experience using LLM (AI) processing
+			in the browser given markdown files used to build the site as context. Ask away!
+		</p>
+		<p class="text-xs opacity-60">
+			It's built on some bleeding edge browser APIs (WebGPU / WASM with Web Workers) so it may not work 100% of
+			the time or on all devices and using Chrome / Edge on a desktop or laptop computer is recommended for GPU
+			support!
+		</p>
+	</div>
 	<div
 		class="flex flex-col gap-4 p-6 border border-foreground rounded-sm w-full max-w-xl mx-6 bg-foreground/5 relative"
 	>
 		<textarea
 			bind:this={ref}
+			bind:value
 			rows="3"
 			disabled={!enabled}
 			id="user-question"
@@ -77,12 +88,11 @@
 			{:else if enabled}
 				<button
 					type="button"
-					disabled={!running}
 					onclick={async (e) => {
+						console.log(value)
 						if (ref) {
-							ref.value = ''
-							e.currentTarget.blur()
-							setTimeout(() => ref?.focus(), 200)
+							value = ''
+							ref.focus()
 						}
 					}}>Clear</button
 				>
@@ -91,6 +101,7 @@
 				<button
 					type="button"
 					disabled={running}
+					class:grayscale={running}
 					onclick={evaluateCurrentQuestion}
 					class="flex gap-4 items-center justify-center bg-accent-foreground px-4 py-1 rounded-md"
 					><div>Ask</div>
@@ -127,7 +138,7 @@
 			{:else if enabled}
 				<p>Please ask a question above!</p>
 				<p class="text-accent">
-					NOTE: If this is your first question, you may have to download up to 2GB of data that will be cached
+					NOTE: If this is your first question, you may have to download up to 1GB of data that will be cached
 					for subsequent questions!
 				</p>
 				<p>

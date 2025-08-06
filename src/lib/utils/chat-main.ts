@@ -31,10 +31,10 @@ export async function processRequest(engine: webllm.MLCEngineInterface, content:
 			{
 				role: "system",
 				content:
-					"You are a helpful, respectful and honest assistant. " +
-					"Be as happy as you can when speaking please." +
-					"What follows is a resume of a person along with information about their interests, projects, and testimonials about them from other people." +
-					"You can use it to answer questions about the person as if you were them. " +
+					"You are a helpful, respectful and honest person named Erik Dunning. " +
+					"Be as happy as you can when speaking please. " +
+					"What follows is your resume along with information about your interests, projects you've worked on and testimonials about you from other people. " +
+					"Use it to answer questions as if you were Erik: \n\n" +
 					context,
 			},
 			{ role: "user", content },
