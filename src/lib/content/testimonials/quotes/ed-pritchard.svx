@@ -6,5 +6,6 @@
 
 <a href="https://www.linkedin.com/in/ed-pritchard-917a3931/" target="_blank" rel="noreferrer noopener">
     <enhanced:img src="../images/ed-pritchard.jpg" width="200" height="200" alt="Ed Pritchard" />
-    <span>Ed Pritchard - Team Lead & Full-stack Engineer</span>
+    <span>Ed Pritchard: <br/>Team Lead & Full-stack Engineer</span>
+
 </a>

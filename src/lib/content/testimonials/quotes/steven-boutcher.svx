@@ -7,5 +7,5 @@
 
 <a href="https://www.linkedin.com/in/stevenboutcher" target="_blank" rel="noreferrer noopener">
     <enhanced:img src="../images/steven-boutcher.jpg" width="200" height="200" alt="Steven Boutcher" />
-    <span>Steven Boutcher - QA Automation Engineer</span>
+    <span>Steven Boutcher: <br/>QA Automation Engineer</span>
 </a>
