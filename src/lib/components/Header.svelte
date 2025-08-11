@@ -10,7 +10,7 @@
 	import { currentTheme, mobileMenuState } from '$lib/variables/state.svelte'
 </script>
 
-<header class="flex items-center h-16 mx-6">
+<header class="flex items-center h-16 px-6 fixed top-0 right-0 left-0 z-50">
 	<button
 		aria-label="toggle navigation menu"
 		class="lg:hidden items-center justify-center mr-6 hover:cursor-pointer"
@@ -53,3 +53,13 @@
 		</a>
 	</div>
 </header>
+
+<style>
+	header {
+		background: rgba(255, 255, 255, 0.1);
+		box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+		backdrop-filter: blur(5px);
+		-webkit-backdrop-filter: blur(5px);
+		border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	}
+</style>

@@ -10,7 +10,7 @@
 	const { children } = $props()
 </script>
 
-<div class="flex flex-col min-h-screen relative w-full overflow-x-hidden">
+<div class="flex flex-col min-h-screen relative w-full overflow-x-hidden pt-20">
 	<Header />
 	<main class="grow relative flex flex-col text-foreground">
 		{@render children()}
