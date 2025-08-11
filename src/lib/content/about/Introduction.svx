@@ -55,7 +55,7 @@ This extends to artwork that I've created on the side as well, like the example 
 
 Music, video games, posters, film production and other media can all demonstrate a lot of overlap
 between art and computer science (especially nowadays). Originality and communicating a message requires
-nuance and patience not matter what the tools your use.
+nuance and patience no matter the tools you use though.
 
 Quality websites, web applications, or services require a lot of creativity and process, just like working with physical media.
 Naturally, it's easy to see how the visual side of FE work falls in to that, but the mental imagery of backend / networking infrastructure work has its own beauty too.
@@ -68,7 +68,7 @@ Form and function intertwined to make beautiful, useful products.
 
 #### Nature
 
-Respect and admiration for nature is a big part of what I enjoy while traveling or even artwork.
+Respect and admiration for nature is a big part of what I enjoy while traveling or even in artwork.
 
 I think I owe a lot of my appreciation for the outdoors to Scouting and the people who supported me in it.
 I even became an Eagle Scout while in High School because I enjoyed all the camping, hiking, biking, climbing and exploring despite the bugs & weather.
