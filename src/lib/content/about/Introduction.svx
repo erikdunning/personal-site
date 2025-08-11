@@ -1,21 +1,30 @@
 ## About
 
-I'm Erik Dunning, a dude living on planet earth (Madison, WI) with my wife Carrie (a whole human being her own right) and our two dogs Luci and Samson.
+I'm Erik Dunning, a dude living on planet earth in Madison, WI with my wife Carrie and our two dogs Luci and Samson.
+
+I like to learn, teach, and build stuff!
 
 ### Interests
 
 #### Traveling
 
-My wife and I love traveling and experiencing other cultures around the world.  More affordably, we also enjoy taking random vacations to
-places we've never been to locally.  In fact, the path of our honeymoon was determined by a die roll every morning
-on a road trip we intentionally didn't plan.  We ended up going to some historic locations (such as Hannibal, MO) that
-we'd never have expected to visit.  
+My wife and I love traveling around the United States and experiencing other cultures around the world.
+We've been to Japan, many places in Europe and tropical islands near the equator like St. Lucia to name a few.
 
 <figure class="text-center">
     <enhanced:img src="/static/photos/nerds.jpg" width="2000" height="2000" alt="Erik and Carrie" class="snapshot" />
     <figcaption>Nerds in Japan.</figcaption>
 </figure>
 
+More affordably, we also enjoy taking random vacations to places we've never been to on road trips determined by a die roll every morning.
+
+The number it lands on indicates the direction we're headed (so long as it isn't directly back from where we came).
+We find restaurants to eat at, things to see, and where we want to stay the night as we drive.
+
+As a result, we've ended up going to some beautiful and historic locations that we'd never have expected or thought to visit.
+
+For example, Hannibal, Hermann and St. Joseph Missouri all stick out as exceptionally beautiful places off the beaten path
+that have a strong connection to history and beautiful surroundings in the spring.
 
 #### Art & Computer Science
 
