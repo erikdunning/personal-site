@@ -15,5 +15,5 @@
 | **Build Tools:**            | GitHub Actions, Spinnaker, Jenkins, TravisCI, GCB, Artifactory  |
 | **Cloud Infrastructure:**   | AWS (Lambdas, ECS, S3, EC2) Google Cloud (GCB, GCR, Auth)       |
 | **Zendesk Infrastructure:** | Core API, ZAF Apps, Guide Themes, ZDI, Lotus, Numerous Services |
-| **Test Tools:**             | Capybara / Sauce Labs, Cypress, RSpec, Jest, Jasmine            |
+| **Test Tools:**             | Vitest, Playwright, Sauce Labs, Cypress, RSpec, Jasmine         |
 | **Databases:**              | MySQL, MongoDB, SQLite, PostgreSQL, Redis                       |

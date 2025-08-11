@@ -338,6 +338,10 @@
 		}
 	}
 
+	.snapshot {
+		@apply bg-white p-2 border border-foreground/40 shadow-xl w-80 rounded-xs m-0 mx-auto;
+	}
+
 	/* blockquote {
 		@apply italic text-muted-foreground border-l-2 border-muted pl-4;
 	} */

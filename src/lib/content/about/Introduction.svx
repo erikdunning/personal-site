@@ -1,0 +1,51 @@
+## About
+
+I'm Erik Dunning, a dude living on planet earth (Madison, WI) with my wife Carrie (a whole human being her own right) and our two dogs Luci and Samson.
+
+### Interests
+
+#### Traveling
+
+My wife and I love traveling and experiencing other cultures around the world.  More affordably, we also enjoy taking random vacations to
+places we've never been to locally.  In fact, the path of our honeymoon was determined by a die roll every morning
+on a road trip we intentionally didn't plan.  We ended up going to some historic locations (such as Hannibal, MO) that
+we'd never have expected to visit.  
+
+<figure class="text-center">
+    <enhanced:img src="/static/photos/nerds.jpg" width="2000" height="2000" alt="Erik and Carrie" class="snapshot" />
+    <figcaption>Nerds in Japan.</figcaption>
+</figure>
+
+
+#### Art & Computer Science
+
+I have always been interested in the intersection of art and computation. I frequently still sketch out or write down ideas
+on paper first to organize thoughts, but I'm happy use to digital tools as well to enhance or create as well.
+
+<figure class="text-center">
+    <enhanced:img src="/static/photos/i-nefarious.jpg" width="2000" height="2000" alt="I, Nefarious Album Cover" class="snapshot" />
+    <figcaption>Artwork I made for the album
+        <a href="https://open.spotify.com/album/0blictSzU80id4yOoL2S8Y?si=aVOoqNR8QpWenWqH4vxGJw" target="_blank">
+            "I, Nefarious"
+        </a>
+        by Brian Grimmer! <br/>
+        Multiple pieces drawn by hand, but digitally assembled and enhanced.
+    </figcaption>
+</figure>
+
+Naturally, music, video games, posters, film production and other media can demonstrate a lot of overlap
+between art and computer science (especially nowadays). However, I find well constructed websites / web applications / services
+can require a lot of creativity and process.
+
+In that way, the work do is not unlike something like woodworking in my mind -- being part engineering, part sculpture.
+Form and function intertwined to make things beautifully simple and useful.
+
+#### Nature
+
+I actually became an Eagle Scout while in High School and I grew up enjoying being outside a lot
+(camping, hiking, climbing or otherwise).
+
+I take our dogs on frequent walks around a wooded area with several parks and I find a lot of
+inspiration in observing the natural world's systems and mechanics.  It's tremendously complex
+and awe inspiring when you take a minute to think about how it all works in harmony.
+
