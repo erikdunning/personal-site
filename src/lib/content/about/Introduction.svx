@@ -8,28 +8,39 @@ I like to learn, teach, and build stuff!
 
 #### Traveling
 
+I think traveling is crucial for broadening people's perspective about others and the world at large.
+
 My wife and I love traveling around the United States and experiencing other cultures around the world.
-We've been to Japan, many places in Europe and tropical islands near the equator like St. Lucia to name a few.
+We've been to Japan, many places in Europe and tropical places near the equator like St. Lucia and Mazatlan, to name a few.
 
 <figure class="text-center">
     <enhanced:img src="/static/photos/nerds.jpg" width="2000" height="2000" alt="Erik and Carrie" class="snapshot" />
     <figcaption>Nerds in Japan.</figcaption>
 </figure>
 
-More affordably, we also enjoy taking random vacations to places we've never been to on road trips determined by a die roll every morning.
-
-The number it lands on indicates the direction we're headed (so long as it isn't directly back from where we came).
-We find restaurants to eat at, things to see, and where we want to stay the night as we drive.
+More affordably, we also enjoy taking "random" vacations to places we've never been to on road trips determined by a the roll of a die.
+Event morning it's rolled and the number it lands on indicates the direction we're headed (so long as it isn't directly back from where we came).
+We find restaurants to eat at, things to see, and interesting places to stay the night as we drive.
 
 As a result, we've ended up going to some beautiful and historic locations that we'd never have expected or thought to visit.
 
-For example, Hannibal, Hermann and St. Joseph Missouri all stick out as exceptionally beautiful places off the beaten path
-that have a strong connection to history and beautiful surroundings in the spring.
+Hannibal, Hermann and St. Joseph Missouri all stick out as exceptionally beautiful places off the beaten path
+that have a strong connection to history and were genuinely neat to see.  I'm thankful for a lot of places we've discovered,
+even though we hand't deliberately intended to.
 
 #### Art & Computer Science
 
-I have always been interested in the intersection of art and computation. I frequently still sketch out or write down ideas
-on paper first to organize thoughts, but I'm happy use to digital tools as well to enhance or create as well.
+I've always been interested in the intersection of art and computers in general.
+
+Growing up watching movies about robots like "Short Circuit" or more advance synthetic life like the replicants of "Blade Runner"
+were very inspiring. Furthermore, seeing the realism of the CG dinosaurs in "Jurassic Park" at the theater as a kid was mind blowing.
+I still draw from those and more contemporary works when I dream things up today.
+
+In my work, I frequently sketch out or write down ideas on paper first to organize my thoughts and keep composition in perspective. 
+I really enjoy seeing things come to "life" digitally though.
+They can take on a level of interactivity you can't do as easily with other media.
+
+This extends to artwork that I've created on the side as well, like the example below:
 
 <figure class="text-center">
     <enhanced:img src="/static/photos/i-nefarious.jpg" width="2000" height="2000" alt="I, Nefarious Album Cover" class="snapshot" />
@@ -42,19 +53,28 @@ on paper first to organize thoughts, but I'm happy use to digital tools as well 
     </figcaption>
 </figure>
 
-Naturally, music, video games, posters, film production and other media can demonstrate a lot of overlap
-between art and computer science (especially nowadays). However, I find well constructed websites / web applications / services
-can require a lot of creativity and process.
+Music, video games, posters, film production and other media can all demonstrate a lot of overlap
+between art and computer science (especially nowadays). Originality and communicating a message requires
+nuance and patience not matter what the tools your use.
 
-In that way, the work do is not unlike something like woodworking in my mind -- being part engineering, part sculpture.
-Form and function intertwined to make things beautifully simple and useful.
+Quality websites, web applications, or services require a lot of creativity and process, just like working with physical media.
+Naturally, it's easy to see how the visual side of FE work falls in to that, but the mental imagery of backend / networking infrastructure work has its own beauty too.
+
+In this way, I feel the work I enjoy doing is not unlike woodworking (something I also dabble at).
+
+It's part engineering, and part art.
+
+Form and function intertwined to make beautiful, useful products.
 
 #### Nature
 
-I actually became an Eagle Scout while in High School and I grew up enjoying being outside a lot
-(camping, hiking, climbing or otherwise).
+Respect and admiration for nature is a big part of what I enjoy while traveling or even artwork.
 
-I take our dogs on frequent walks around a wooded area with several parks and I find a lot of
-inspiration in observing the natural world's systems and mechanics.  It's tremendously complex
-and awe inspiring when you take a minute to think about how it all works in harmony.
+I think I owe a lot of my appreciation for the outdoors to Scouting and the people who supported me in it.
+I even became an Eagle Scout while in High School because I enjoyed all the camping, hiking, biking, climbing and exploring despite the bugs & weather.
 
+Now, while walking our dogs around a wooded area with several parks,
+I find a lot of inspiration in observing the natural world's systems and mechanics.
+The tremendously complexity of it is awe inspiring when you take a minute to think about how it all works in harmony.
+
+Plus, getting out and going for a "jiggle" helps keep you healthy and reduce stress!
