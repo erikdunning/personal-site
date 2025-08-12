@@ -18,7 +18,7 @@
 
 <svelte:head>
 	<title>{title} - Erik Dunning</title>
-	<meta name="description" content="Learn more about Erik Dunning." />
+	<meta name="description" content={description} />
 	<meta property="og:title" content={title} />
 	<meta property="og:description" content={description} />
 	<meta property="og:image" content={image} />
